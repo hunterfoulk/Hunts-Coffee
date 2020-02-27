@@ -48,8 +48,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #cecaaa; */
-  background-color: var(--main-bg);
+  background-color: #f6f5d9;
 }
 .Main {
   display: flex;
@@ -64,9 +63,9 @@ a {
 
 /* APP END */
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   p {
     font-size: 1.1rem;
@@ -78,8 +77,10 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
-  .section-title {
-    font-size: calc(3rem + 2vw);
-    margin: 30px;
+  .main {
+    width: 100%;
+  }
+  .app {
+    width: 100%;
   }
 }
